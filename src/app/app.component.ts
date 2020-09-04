@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ใช้งาน *ngFor'
-  languages =['Visual c#','Visual Basic','MEAN Stack','Angular','Nathakon']
+  title= 'welcom'
+  url = 'https://web.facebook.com/phthfc'
 
 }
