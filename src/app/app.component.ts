@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ใช้งาน *ngFor'
-  languages =['Visual c#','Visual Basic','MEAN Stack','Angular']
+  languages =['Visual c#','Visual Basic','MEAN Stack','Angular','Nathakon']
 
 }
