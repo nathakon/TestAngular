@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title= 'welcom'
-  url = 'https://web.facebook.com/phthfc'
+  title= 'Event Binding'
+  isError =false;
 
+  onKeyPressEnter($event){
+    if($event.keyCode === 13){
+      console.log('Press Enter :',$event.target.value)
+    }
+  }
 }
