@@ -1,5 +1,26 @@
 <div style="text-align: center">
-  <h1 [ngClass]={MakeLable:true}>
+  <h1>
     Welcome to{{title}}
   </h1>
+  <div class="container">
+    <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-item active">
+        <img class="d-block img-fluid" src="../assets/image/904398.jpg" alt="รูปที่1">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block img-fluid" src="../assets/image/795690.jpg" alt="รูปที่2">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block img-fluid" src="../assets/image/599501.jpg" alt="รูปที่3">
+      </div>
+      <a class="carousel-control-prev" href="#mainCarousel" data-slide="prev">
+          <div class="carousel-control-prev-icon"></div>
+          <div class="sr-only">ก่อนหน้า</div>
+      </a>
+       <a class="carousel-control-next" href="#mainCarousel" data-slide="next">
+          <div class="carousel-control-next-icon"></div>
+          <div class="sr-only">ถัดไป</div>
+      </a>
+    </div>
   </div>
+</div>
