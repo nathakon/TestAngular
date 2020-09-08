@@ -6,12 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title= 'Event Binding'
-  isError =false;
+  title= 'AngularCCS'
 
-  onKeyPressEnter($event){
-    if($event.keyCode === 13){
-      console.log('Press Enter :',$event.target.value)
-    }
+  getColorStyle(){
+    return "white"
   }
+
+  getBGColorStyle(){
+    return "red"
+  }
+
 }
